@@ -1,0 +1,19 @@
+Sitios:
+  mercadolibre: 
+      url: 'https://celulares.mercadolibre.com.mx/samsung/#deal_print_id=cc3d1a00-5f9e-11eb-b802-9316e92d0052' 
+      titulos: '.ui-search-item__title'
+      precio: '.price-tag-fraction' 
+      links: '.ui-search-item__group__element.ui-search-link'
+      siguiente: '.andes-pagination__button.andes-pagination__button--next [href]'
+  amazon:
+      url: 'https://www.amazon.com.mx/s?k=relojes&rh=n%3A14093015011&__mk_es_MX=ÅMÅŽÕÑ&ref=nb_sb_noss'
+      titulos: '.a-size-base-plus.a-text-normal'
+      precio: '.a-offscreen'
+      links: '.a-link-normal.a-text-normal'
+      siguiente: '.a-last [href]'
+  cyberpuerta:
+      url: 'https://www.cyberpuerta.mx/Impresion-y-Copiado/Impresoras-y-Multifuncionales/Impresoras/'
+      titulos: '.emproduct_right [id][title]'
+      precio: '.price'
+      links: '.emproduct_left [href]'
+      siguiente: '.next'   
