@@ -21,7 +21,7 @@ from RecargaV2 import config
 """
 options=Options()
 options.add_argument('--ignore-certificate-errors')
-#options.add_argument("--headless")
+options.add_argument("--headless")
 options.add_argument('--disable-gpu')
 driver=webdriver.Chrome(options=options)
 liga=[]
