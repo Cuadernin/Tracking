@@ -4,7 +4,7 @@ Tracking to any online store with the possibility of determining the number of p
 ## Input 📋
 You must specify the HTML classes where the product name, price, product URL and the URL of the page change (if you want to change the page) are located in the YAML file.\
 **YAML**:
-*page name: _Headboard_
+* page name: _Headboard_
 * url: _page url_
 * titulos: _titles_
 * precio: _price_
