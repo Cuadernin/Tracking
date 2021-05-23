@@ -19,4 +19,3 @@ You must specify the HTML classes where the product name, price, product URL and
 ## Output 📦
 Csv file with product name, price, product URL and date.
 
-####  By Cuadernin
