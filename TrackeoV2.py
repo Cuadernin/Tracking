@@ -64,21 +64,15 @@ for i in range(P+1):
             linkss=l.get_attribute("href")
             if titulo.startswith('\n') or titulo.startswith(' '):
                 titulo=titulo[1:len(titulo)]
-            else:
-                pass  
+                
             if titulo.endswith('\n') or titulo.endswith(' '):
                 titulo=titulo[:len(titulo)-1]
-            else:
-                pass
-                
+        
             if precio.startswith('\n') or precio.startswith(' '):
                 precio=precio[1:len(precio)]
-            else:
-                pass 
+                
             if precio.endswith('\n') or precio.endswith(' '):
                 precio=precio[:len(precio)-1]
-            else:
-                pass
             liga.append([titulo,precio,linkss,datetime.datetime.now()])
     else:
         T2=trackerP(pagina)
@@ -88,21 +82,14 @@ for i in range(P+1):
             linkss=l.get_attribute("href")
             if titulo.startswith('\n') or titulo.startswith(' '):
                 titulo=titulo[1:len(titulo)]
-            else:
-                pass  
             if titulo.endswith('\n') or titulo.endswith(' '):
                 titulo=titulo[:len(titulo)-1]
-            else:
-                pass
                 
             if precio.startswith('\n') or precio.startswith(' '):
                 precio=precio[1:len(precio)]
-            else:
-                pass 
             if precio.endswith('\n') or precio.endswith(' '):
                 precio=precio[:len(precio)-1]
-            else:
-                pass
+
             liga.append([titulo,precio,linkss,datetime.datetime.now()])
             
 ####### llenado CSV ###############
